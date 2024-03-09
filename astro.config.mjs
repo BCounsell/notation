@@ -7,6 +7,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://bcounsell.github.io",
-  base: "/src",
+  base: "/notation",
   integrations: [mdx(), sitemap(), tailwind()],
 });
